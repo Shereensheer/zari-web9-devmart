@@ -3,10 +3,10 @@ import stripe
 import os
 from dotenv import load_dotenv
 
-load_dotenv()  
+ 
 
 
-stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
+stripe.api_key = st.secrets["STRIPE_SECRET_KEY"]
 
 
 
