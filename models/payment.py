@@ -31,8 +31,8 @@ class Payment:
                     "quantity": 1,
                 }],
                 mode="payment",
-                success_url="https://devmart-com-f2d2xnvnbji6mshcpfsaue.streamlit.app/success",  
-                cancel_url="https://devmart-com-f2d2xnvnbji6mshcpfsaue.streamlit.app/cancel",
+                success_url="https://devmart-com-5u3w6qy4qnvbj5cixyn7vc.streamlit.app/success",  
+                cancel_url="https://devmart-com-5u3w6qy4qnvbj5cixyn7vc.streamlit.app/cancel",
                 customer_email=self.user.email
             )
             return session.url
